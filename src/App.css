@@ -32,6 +32,13 @@ main { min-height: 0; }
 
 
 /* navigatiton css */
+nav a {
+  color: #8B0000 !important;
+  text-decoration: none !important;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
 nav{
     display: flex;
     justify-content: flex-end;
