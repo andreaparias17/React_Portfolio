@@ -87,7 +87,7 @@ nav a:active{
 
 h1 {
   color: #8B0000;
-  font-size: clamp(40px, 7vw, 72px);
+  font-size: clamp(60px, 7vw, 72px);
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   margin-top: 0.75rem 0 0.5rem;
@@ -103,7 +103,7 @@ h1 {
   justify-content: center;
   align-items: flex-start;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 0.75rem;
   letter-spacing: 1px;
 }
@@ -129,8 +129,9 @@ h1 {
 }
 
 .hero-image {
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
   border-radius: 75%; /* makes it circular */
   object-fit: cover;
   border: 3px solid #8B0000; 
