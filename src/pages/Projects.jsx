@@ -104,7 +104,7 @@ export default function Projects() {
     <section id="projects" className="section">
       <div className="projects-hero">
         <h1>Projects</h1>
-        <p>A curated collection of the things I've built — each one a learning step forward.</p>
+        <p>A curated collection of the things I've built </p>
       </div>
 
       {/* grid/flex container — your CSS already supports both */}
