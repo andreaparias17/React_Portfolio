@@ -36,7 +36,7 @@ nav a {
   color: #8B0000 !important;
   text-decoration: none !important;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   transition: color 0.3s ease;
 }
 nav{
@@ -206,40 +206,31 @@ p{
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings: "width" 100;
-    
+     
+} 
+#about {
+  text-align: left;   /* reset parent centering */
 }
-.about-me{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 50px;
-
+#about p {
+  text-align: justify;
+  max-width: 900px;
+  margin: 0 auto 1rem auto; /* keep paragraphs centered as a block */
+  line-height: 1.7;
 }
-.profile{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    margin: 50px 100px 0px 0px;
-    max-width: 1000px;
+.about-text {
+  max-width: 900px;
+  margin: 0 auto;        /* center the block */
 }
 
-.education{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 50px;
-
+.about-text p {
+  text-align: justify;   /* justify paragraphs */
+  text-align-last: left; /* last line alignment */
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  hyphens: auto;         /* nicer justification */
+  -webkit-hyphens: auto;
 }
 
-.skills{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 50px;
-}
  /* about me pic */
 .about-photo-strip img {
   width: 150%;      

@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section id="about" className="section">
       <h2>About Me</h2>
-      <div>
+      <div classname="about-text">
       <p>
         I was born in Ecuador and came to the U.S. with big dreams of building a better future. That journey shaped my resilience and my drive to keep learning, no matter how challenging the path.</p>
 
