@@ -116,6 +116,25 @@ h1 {
   text-align: center;
   padding: 0 20px;
 }
+.hero-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; 
+}
+
+.hero-header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 75%; /* makes it circular */
+  object-fit: cover;
+  border: 3px solid #8B0000; 
+}
 
 
 /* cta view my work */
@@ -275,6 +294,14 @@ img{
   color: #8b0000;
   margin: 0 0 8px;
 }
+.project-card img.project-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
 
 .tech-stack {
   font-size: 0.9rem;

@@ -1,5 +1,7 @@
 import { useTypewriter } from "../hooks/useRotatingText"; 
 import { useRotatingText } from "../hooks/useTypewriterLoop";
+import animePic from "../assets/andreaanime.png";
+
 
 
 export default function Home() {
@@ -14,8 +16,10 @@ export default function Home() {
 
   return (
     <section id="home" className="hero-container">
+      <img src={animePic} alt="Andrea Avatar" className="hero-image" />
       <h1>{typed}
         <span className="caret" aria-hidden="true" />
+        
       </h1>
 
       <div className="subtitle">

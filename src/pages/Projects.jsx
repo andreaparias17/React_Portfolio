@@ -3,23 +3,26 @@ import { useEffect, useState } from "react";
 
 const projects = [
   {
-    title: "Project 1",
-    tech: "HTML | CSS | JavaScript",
-    description: "Project summary.",
+    title: "Weather App",
+    tech: "HTML | CSS | JavaScript| OpenWeather API",
+    description: "A simple app to check the current weather by city.",
+    image:"/public/WeatherAppshot.png",
     demoLink: "#",
-    githubLink: "#"
+    githubLink: "https://github.com/andreaparias17/WeatherApp2.git"
   },
   {
-    title: "Project 2",
-    tech: "React | Some library",
-    description: "Project summary.",
+    title: "Book Store",
+    tech: "HTML| CSS | Javascript",
+    description: "A clean, responsive bookstore demo showcasing HTML and CSS styling with JavaScript-driven interactivity. Highlights DOM updates, event listeners, and simple client-side logic.",
+    image:"/public/bookstore.png",
     demoLink: "#",
-    githubLink: "#"
+    githubLink: "https://github.com/andreaparias17/BookStoreProject.git"
   },
   {
     title: "Project 3",
     tech: "React | Firebase",
     description: "Project summary.",
+    image:"",
     demoLink: "#",
     githubLink: "#"
   },
@@ -27,6 +30,7 @@ const projects = [
     title: "Project 4",
     tech: "React | Firebase",
     description: "Another exciting one here.",
+    image:"",
     demoLink: "#",
     githubLink: "#"
   },
@@ -34,6 +38,7 @@ const projects = [
     title: "Project 5",
     tech: "React | Firebase",
     description: "Another exciting one here.",
+    image:"",
     demoLink: "#",
     githubLink: "#"
   },
