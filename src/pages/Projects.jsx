@@ -6,7 +6,7 @@ const projects = [
     title: "Weather App",
     tech: "HTML | CSS | JavaScript| OpenWeather API",
     description: "A simple app to check the current weather by city.",
-    image:"/public/WeatherAppshot.png",
+    image:"/WeatherAppshot.png",
     demoLink: "#",
     githubLink: "https://github.com/andreaparias17/WeatherApp2.git"
   },
@@ -14,7 +14,7 @@ const projects = [
     title: "Book Store",
     tech: "HTML| CSS | Javascript",
     description: "A clean, responsive bookstore demo showcasing HTML and CSS styling with JavaScript-driven interactivity. Highlights DOM updates, event listeners, and simple client-side logic.",
-    image:"/public/bookstore.png",
+    image:"/bookstore.png",
     demoLink: "#",
     githubLink: "https://github.com/andreaparias17/BookStoreProject.git"
   },
